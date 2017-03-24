@@ -1,3 +1,8 @@
+# Kore SDK
+Kore offers Bots SDKs as a set of platform-specific client libraries that provide a quick and convenient way to integrate Kore Bots chat capability into custom applications.
+
+With just few lines of code, you can embed our Kore chat widget into your applications to enable end-users to interact with your applications using Natural Language 
+
 # Kore Android SDK for developers
 
 Kore SDK for Android enables you to talk to Kore bots over a web socket. This repo also comes with the code for sample application that developers can modify according to their Bot configuration.
@@ -6,8 +11,13 @@ Kore SDK for Android enables you to talk to Kore bots over a web socket. This re
 
 ### Prerequisites
 * SDK app credentials 
-	* add the bot to the channel *Web / Mobile Client*)
-	* create a new SDK app to obtain client id and client secret
+	* Navigate to the bot and enable *Web / Mobile Client* channel against the bot
+	
+	![Add bot to Web/Mobile Client channel](https://github.com/mandarudg/Tst/blob/master/channels.png)
+	
+	* create new or use existing SDK app to obtain client id and client secret
+	
+	![Obtain Client id and Client secret](https://github.com/mandarudg/Tst/blob/master/web-mobile-client-channel.png)
 
 * Service to generate JWT (JSON Web Tokens)- this service will be used in the assertion function injected to obtain the connection.
 
