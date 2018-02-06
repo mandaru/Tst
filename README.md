@@ -9,7 +9,8 @@ Kore SDK for Android enables you to talk to Kore bots over a web socket. This re
 
 # Setting up
 
-### Prerequisites
+### Prerequisites 1
+
 * SDK app credentials 
 	* Navigate to the bot and enable *Web / Mobile Client* channel against the bot
 	
